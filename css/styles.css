@@ -1,0 +1,103 @@
+/* Paleta 
+
+    Rojo : #8C030E
+    Rojo oscuro : #590202
+    Negro : #0A0A0A
+    Gris Oscuro : #181916
+    Gris : #696869
+    Blanco : #FFFFFF
+    
+    
+*/
+
+@font-face {
+    font-family: 'SourceCode';
+    src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'MPlus';
+    src: url(../fonts/MPLUS1Code-VariableFont_wght.ttf);
+}
+
+nav{
+    font-family: 'SourceCode';
+}
+nav img{
+    height: 7vh;
+}
+nav a{
+    color: #FFFFFF !important;
+}
+
+body{
+    background-color: #181916;
+    font-family: 'MPlus';
+}
+
+
+footer img{
+    height: 5hv;
+}
+
+.presentacion{
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.presentacion p{
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.presentacion img{
+    max-heigh: 70hv;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 300%
+    }
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+
+
+footer{
+    color: #FFFFFF;
+    background-color: #696869;
+}
+
+footer img{
+    height: 6vh;
+}
+
+.body{
+    background-image: url(../assets/img/aatrox.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card-body p{
+    color: #FFFFFF;
+}
+
+.card-body h5{
+    color: #FFFFFF;
+}
+
+h2{
+    color: #FFFFFF;
+}
+
+table{
+    font-size: x-large;
+}
+
+.card{
+    background-color: #8C030E;
+}
